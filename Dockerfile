@@ -12,22 +12,23 @@ ENV ASPNETCORE_URLS=http://+:8080
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy solution and csproj files first (for caching)
-COPY HelpDesk-API.sln ./
+# Copy solution
+COPY HelpDesk-API.sln .
+
+# Copy all csproj files (IMPORTANT)
 COPY HelpDesk.API/HelpDesk.API.csproj HelpDesk.API/
-COPY HelpDesk.Repository/HelpDesk.Repository.csproj HelpDesk.Repository/
+COPY HelpDesk.Common/HelpDesk.Common.csproj HelpDesk.Common/
+COPY HelpDesk.Repositories/HelpDesk.Repositories.csproj HelpDesk.Repositories/
+COPY HelpDesk.Services/HelpDesk.Services.csproj HelpDesk.Services/
 
 # Restore dependencies
-RUN dotnet restore HelpDesk-API.sln
+RUN dotnet restore HelpDesk.API/HelpDesk.API.csproj
 
-# Copy everything else
+# Copy the rest of the source code
 COPY . .
 
-# Publish API project
-RUN dotnet publish HelpDesk.API/HelpDesk.API.csproj \
-    -c Release \
-    -o /app/publish \
-    --no-restore
+# Build & publish
+RUN dotnet publish HelpDesk.API/HelpDesk.API.csproj -c Release -o /app/publish
 
 # =========================
 # Final image
