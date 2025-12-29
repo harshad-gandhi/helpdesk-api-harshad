@@ -1,0 +1,6 @@
+@HelpDesk.API_HostAddress = http://localhost:5093
+
+GET http://localhost:5093/swagger/index.html
+Accept: application/json
+
+###

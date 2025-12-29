@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FIELD_PROJECT_NAME" xml:space="preserve">
+    <value>Project Name</value>
+    <comment/>
+  </data>
+  <data name="FIELD_SHORT_CUT_KEY" xml:space="preserve">
+    <value>Short Cut Key</value>
+    <comment/>
+  </data>
+  <data name="FIELD_WIDGET_SETTING" xml:space="preserve">
+    <value>Chat Widget</value>
+    <comment/>
+  </data>
+  <data name="FIELD_PROJECTS" xml:space="preserve">
+    <value>Projects</value>
+    <comment/>
+  </data>
+  <data name="FIELD_PROJECT" xml:space="preserve">
+    <value>Project</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CREATED_BY" xml:space="preserve">
+    <value>Created By</value>
+    <comment/>
+  </data>
+  <data name="FIELD_LIVE_PROJECT_URL" xml:space="preserve">
+    <value>Live Project URL</value>
+    <comment/>
+  </data>
+  <data name="FIELD_DESCRIPTION" xml:space="preserve">
+    <value>Description</value>
+    <comment/>
+  </data>
+  <data name="FIELD_PROJECT_IMAGE" xml:space="preserve">
+    <value>Project Image</value>
+    <comment/>
+  </data>
+  <data name="FIELD_EMAIL" xml:space="preserve">
+    <value>Email</value>
+    <comment/>
+  </data>
+  <data name="FIELD_PASSWORD" xml:space="preserve">
+    <value>Password</value>
+    <comment/>
+  </data>
+  <data name="FIELD_TOKEN" xml:space="preserve">
+    <value>Token</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ROLE" xml:space="preserve">
+    <value>Role</value>
+    <comment/>
+  </data>
+  <data name="FIELD_DEPARTMENT" xml:space="preserve">
+    <value>Department</value>
+    <comment/>
+  </data>
+  <data name="FIELD_INVITED_BY" xml:space="preserve">
+    <value>Invited By</value>
+    <comment/>
+  </data>
+  <data name="FIELD_INVITED_ID" xml:space="preserve">
+    <value>Project Invite id</value>
+    <comment/>
+  </data>
+  <data name="FIELD_REPORTS_TO" xml:space="preserve">
+    <value>Reports To</value>
+    <comment/>
+  </data>
+  <data name="FIELD_PROJECT_ID" xml:space="preserve">
+    <value>Project ID</value>
+    <comment/>
+  </data>
+  <data name="FIELD_UPDATED_BY" xml:space="preserve">
+    <value>Updated By</value>
+    <comment/>
+  </data>
+  <data name="FIELD_SETTINGS" xml:space="preserve">
+    <value>Settings</value>
+    <comment/>
+  </data>
+  <data name="FIELD_PROJECT_MEMBER_ID" xml:space="preserve">
+    <value>ProjectMemberId</value>
+    <comment/>
+  </data>
+  <data name="FIELD_PROJECT_MEMBER" xml:space="preserve">
+    <value>Project Member</value>
+    <comment/>
+  </data>
+  <data name="FIELD_USER_ID" xml:space="preserve">
+    <value>User ID</value>
+    <comment/>
+  </data>
+  <data name="FIELD_INVITATIONS" xml:space="preserve">
+    <value>Invitations</value>
+    <comment/>
+  </data>
+  <data name="FIELD_INVITATION" xml:space="preserve">
+    <value>Invitation</value>
+    <comment/>
+  </data>
+  <data name="FIELD_INVITATION_TOKEN" xml:space="preserve">
+    <value>Invitation token</value>
+    <comment/>
+  </data>
+  <data name="FIELD_INVITATION_ID" xml:space="preserve">
+    <value>Invitation Id</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CHAT_LIMIT" xml:space="preserve">
+    <value>ChatLimit</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CURRENT_PASSWORD" xml:space="preserve">
+    <value>Old Password</value>
+    <comment/>
+  </data>
+  <data name="FIELD_NEW_PASSWORD" xml:space="preserve">
+    <value>New Password</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CONFIRM_PASSWORD" xml:space="preserve">
+    <value>Confirm Password</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ADMINS" xml:space="preserve">
+    <value>Admins</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ADMIN" xml:space="preserve">
+    <value>Admin</value>
+    <comment/>
+  </data>
+  <data name="FIELD_AGENTS" xml:space="preserve">
+    <value>Agents</value>
+    <comment/>
+  </data>
+  <data name="FIELD_AGENT" xml:space="preserve">
+    <value>Agent</value>
+    <comment/>
+  </data>
+  <data name="FIELD_2FA_CODE" xml:space="preserve">
+    <value>Code</value>
+    <comment/>
+  </data>
+  <data name="FIELD_PHONE_NUMBER" xml:space="preserve">
+    <value>Phone Number</value>
+    <comment/>
+  </data>
+  <data name="PARAMETER_NOT_NULL" xml:space="preserve">
+    <value>{0} is required.</value>
+    <comment/>
+  </data>
+  <data name="PARAMETER_GREATER_THAN_ZERO" xml:space="preserve">
+    <value>{0} must be greater than zero.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_EMAIL_FORMAT" xml:space="preserve">
+    <value>{0} must be a valid email address.</value>
+    <comment/>
+  </data>
+  <data name="MAX_LENGTH_EXCEEDED" xml:space="preserve">
+    <value>{0} cannot exceed {1} characters.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_DATA" xml:space="preserve">
+    <value>{0} is invalid.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_PASSWORD_FORMAT" xml:space="preserve">
+    <value>{0} must be at least 8 characters long, include upper/lower case, a digit, and a special symbol.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_PHONE_NUMBER" xml:space="preserve">
+    <value>{0} must be in valid E.164 format (e.g., +14155552671, maximum 15 digits).</value>
+    <comment/>
+  </data>
+  <data name="DATA_ALREADY_EXIST" xml:space="preserve">
+    <value>{0} already exists.</value>
+    <comment/>
+  </data>
+  <data name="DATA_NOT_EXISTS" xml:space="preserve">
+    <value>{0} does not exist.</value>
+    <comment/>
+  </data>
+  <data name="INTERNAL_SERVER" xml:space="preserve">
+    <value>Internal server error occurred.</value>
+    <comment/>
+  </data>
+  <data name="SOMETHING_WENT_WRONG" xml:space="preserve">
+    <value>Something went wrong. Please try again later.</value>
+    <comment/>
+  </data>
+  <data name="PASSWORDS_DO_NOT_MATCH" xml:space="preserve">
+    <value>{0} must match {1}.</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_DELETION_SUCCEED" xml:space="preserve">
+    <value>{0} deleted successfully.</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_CREATION_SUCCEED" xml:space="preserve">
+    <value>{0} created successfully.</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_UPDATE_SUCCEED" xml:space="preserve">
+    <value>{0} updated successfully.</value>
+    <comment/>
+  </data>
+  <data name="REDIRECT_TO_REGISTRATION" xml:space="preserve">
+    <value>Invitation Accepted, Redirect to registration page.</value>
+    <comment/>
+  </data>
+  <data name="REQUEST_PROCESSED_SUCCESSFULLY" xml:space="preserve">
+    <value>Request processed successfully.</value>
+    <comment/>
+  </data>
+  <data name="UNEXPECTED_ERROR_OCCURRED" xml:space="preserve">
+    <value>An unexpected error occurred.</value>
+    <comment/>
+  </data>
+  <data name="NOT_INVITE_ADMIN" xml:space="preserve">
+    <value>Cannot invite an Admin or Super Admin user.</value>
+    <comment/>
+  </data>
+  <data name="ALREADY_IN_PROJECT" xml:space="preserve">
+    <value>User is already an Agent in this project.</value>
+    <comment/>
+  </data>
+  <data name="INVITATION_TOKEN_ALREADY_ACCEPTED" xml:space="preserve">
+    <value>Invitation has already been accepted.</value>
+    <comment/>
+  </data>
+  <data name="RESEND_INVITATION_SUCCESS" xml:space="preserve">
+    <value>{0} resent successfully.</value>
+    <comment/>
+  </data>
+  <data name="PROJECT_MEMBER_HAS_REPORTS" xml:space="preserve">
+    <value>You can not delete this Member as someone Reports to Them.</value>
+    <comment/>
+  </data>
+  <data name="PROJECT_MEMBER_HAS_OPEN_TICKETS" xml:space="preserve">
+    <value>You can not delete this Member as  they have open tickets.</value>
+    <comment/>
+  </data>
+  <data name="PROJECT_MEMBER_HAS_ACTIVE_CHAT" xml:space="preserve">
+    <value>You can not delete this Member as they have an active chat session.</value>
+    <comment/>
+  </data>
+  <data name="PROJECT_HAS_OPEN_TICKETS" xml:space="preserve">
+    <value>You can not delete this Project as  they have open tickets.</value>
+    <comment/>
+  </data>
+  <data name="PROJECT_HAS_ACTIVE_CHAT" xml:space="preserve">
+    <value>You can not delete this Project as they have an active chat session.</value>
+    <comment/>
+  </data>
+  <data name="PROJECT_ENABLED_SUCCESSFULLY" xml:space="preserve">
+    <value>Project enabled successfully.</value>
+    <comment/>
+  </data>
+  <data name="PROJECT_DISABLED_SUCCESSFULLY" xml:space="preserve">
+    <value>Project disabled successfully.</value>
+    <comment/>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+    <comment/>
+  </data>
+  <data name="Agent" xml:space="preserve">
+    <value>Agent</value>
+    <comment/>
+  </data>
+  <data name="USER_BACKUP_CODES" xml:space="preserve">
+    <value>User Backup Codes</value>
+    <comment/>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+    <comment/>
+  </data>
+  <data name="REFRESH_TOKEN" xml:space="preserve">
+    <value>Refresh Token</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_EXISTS" xml:space="preserve">
+    <value>{0} already exists.</value>
+    <comment/>
+  </data>
+  <data name="LOGIN_SUCCESSFULLY" xml:space="preserve">
+    <value>Logged in successfully.</value>
+    <comment/>
+  </data>
+  <data name="LOGOUT_SUCCESSFULLY" xml:space="preserve">
+    <value>Logged out successfully.</value>
+    <comment/>
+  </data>
+  <data name="INVITATION_TOKEN_EXPIRED" xml:space="preserve">
+    <value>The invitation token has expired.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_INVITATION_TOKEN" xml:space="preserve">
+    <value>The invitation token is invalid.</value>
+    <comment/>
+  </data>
+  <data name="EMAIL_NOT_VERIFIED_CHECK_LINK" xml:space="preserve">
+    <value>Email not verified, Please check your email for verification link.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_EMAIL_OR_PASSWORD" xml:space="preserve">
+    <value>Email ID or password is incorrect.</value>
+    <comment/>
+  </data>
+  <data name="TWO_FACTOR_REQUIRED_VERIFY_IDENTITY" xml:space="preserve">
+    <value>Two-factor authentication is required. Please verify your identity.</value>
+    <comment/>
+  </data>
+  <data name="SCAN_QR_TO_ENABLE_TWO_FACTOR" xml:space="preserve">
+    <value>Please scan the QR code with authenticator app to enable two-factor authentication.</value>
+    <comment/>
+  </data>
+  <data name="ENABLE_TWO_FACTOR_AUTH_SUCCESSFULLY" xml:space="preserve">
+    <value>Two factor authentication enabled successfully.</value>
+    <comment/>
+  </data>
+  <data name="DISABLE_TWO_FACTOR_AUTH_SUCCESSFULLY" xml:space="preserve">
+    <value>Two factor authentication disabled successfully.</value>
+    <comment/>
+  </data>
+  <data name="USER_ID_NOT_FOUND_IN_CLAIMS" xml:space="preserve">
+    <value>User ID not found in claims.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_COLUMN_NAME" xml:space="preserve">
+    <value>Invalid column name.</value>
+    <comment/>
+  </data>
+  <data name="REGISTRATION_SUCCESSFULLY" xml:space="preserve">
+    <value>Registration completed successfully.</value>
+    <comment/>
+  </data>
+  <data name="FORGOT_PASSWORD_EMAIL_SENT" xml:space="preserve">
+    <value>Password reset email has been sent.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_PASSWORD_RESET_TOKEN" xml:space="preserve">
+    <value>Invalid password reset token.</value>
+    <comment/>
+  </data>
+  <data name="PASSWORD_RESET_TOKEN_EXPIRED" xml:space="preserve">
+    <value>Password reset token has expired.</value>
+    <comment/>
+  </data>
+  <data name="PASSWORD_RESET_SUCCESSFULLY" xml:space="preserve">
+    <value>Password has been reset successfully.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_EMAIL_VERIFICATION_TOKEN" xml:space="preserve">
+    <value>Invalid email verification token.</value>
+    <comment/>
+  </data>
+  <data name="EMAIL_VERIFICATION_TOKEN_EXPIRED" xml:space="preserve">
+    <value>Email verification token has expired.</value>
+    <comment/>
+  </data>
+  <data name="EMAIL_VERIFIED_SUCCESSFULLY" xml:space="preserve">
+    <value>Email verified successfully.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_OR_MISSING_USER_ID" xml:space="preserve">
+    <value>User ID is invalid or not provided.</value>
+    <comment/>
+  </data>
+  <data name="USER_NOT_FOUND_OR_SECRET_KEY_MISSING" xml:space="preserve">
+    <value>User not found or secret key not configured.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_VERIFICATION_CODE" xml:space="preserve">
+    <value>Invalid verification code.</value>
+    <comment/>
+  </data>
+  <data name="PROFILE_UPDATE_SUCCESSFULLY" xml:space="preserve">
+    <value>Profile updated successfully.</value>
+    <comment/>
+  </data>
+  <data name="GENERATE_NEW_ACCESS_TOKEN_SUCCESSFULLY" xml:space="preserve">
+    <value>Generate new access token successfully.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_BACKUP_CODE" xml:space="preserve">
+    <value>Invalid backup code.</value>
+    <comment/>
+  </data>
+  <data name="CURRENT_PASSWORD_IS_INCORRECT" xml:space="preserve">
+    <value>Current Password is incorrect.</value>
+    <comment/>
+  </data>
+  <data name="PASSWORD_UPDATE_SUCCESSFULLY" xml:space="preserve">
+    <value>Password updated successfully, Login again.</value>
+    <comment/>
+  </data>
+  <data name="USER_STATUS_UPDATE_SUCCESSFULLY" xml:space="preserve">
+    <value>User status updated successfully.</value>
+    <comment/>
+  </data>
+  <data name="DIRECT_MESSAGE" xml:space="preserve">
+    <value>Direct Message</value>
+    <comment/>
+  </data>
+  <data name="DELETE_SUCCESS" xml:space="preserve">
+    <value>{0} deleted successfully.</value>
+    <comment/>
+  </data>
+  <data name="SEND_SUCCESS" xml:space="preserve">
+    <value>{0} send successfully.</value>
+    <comment/>
+  </data>
+  <data name="UPDATED_SUCCESS" xml:space="preserve">
+    <value>{0} updated successfully.</value>
+    <comment/>
+  </data>
+  <data name="INVITATION_SEND_SUCCESSFULLY" xml:space="preserve">
+    <value>Invitation send successfully.</value>
+    <comment/>
+  </data>
+  <data name="READ_SUCCESS" xml:space="preserve">
+    <value>{0} read successfully.</value>
+    <comment/>
+  </data>
+  <data name="REQUIRED" xml:space="preserve">
+    <value>{0} is required.required</value>
+    <comment/>
+  </data>
+  <data name="ID_POSITIVE" xml:space="preserve">
+    <value>{0} must be a positive number.</value>
+    <comment/>
+  </data>
+  <data name="LENGTH_LIMIT_250" xml:space="preserve">
+    <value>{0} must not exceed 250 characters.</value>
+    <comment/>
+  </data>
+  <data name="LENGTH_LIMIT_50" xml:space="preserve">
+    <value>{0} must not exceed 50 characters.</value>
+    <comment/>
+  </data>
+  <data name="LENGTH_LIMIT_100" xml:space="preserve">
+    <value>{0} must not exceed 100 characters.</value>
+    <comment/>
+  </data>
+  <data name="SESSION_TIMEOUT" xml:space="preserve">
+    <value>Session has expired. Please try again.</value>
+    <comment/>
+  </data>
+  <data name="TOKEN_EXPIRED" xml:space="preserve">
+    <value>Token has expired. Please try again.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_SORTCOLUMN" xml:space="preserve">
+    <value>Invalid column name for sorting.</value>
+    <comment/>
+  </data>
+  <data name="IS_NULL_OR_EMPTY" xml:space="preserve">
+    <value>{0} is null or empty.</value>
+    <comment/>
+  </data>
+  <data name="ID_IS_NULL_OR_ZERO" xml:space="preserve">
+    <value>{0} cannot be null or zero or less then 1</value>
+    <comment/>
+  </data>
+  <data name="INVALID_ACTION" xml:space="preserve">
+    <value>Invalid action.</value>
+    <comment/>
+  </data>
+  <data name="CONNECTION_STRING_NOT_FOUND" xml:space="preserve">
+    <value>Connection string is missing.</value>
+    <comment/>
+  </data>
+  <data name="DATABASE_CONNECTION_FAILED" xml:space="preserve">
+    <value>Unable to connect to the database.</value>
+    <comment/>
+  </data>
+  <data name="STORED_PROCEDURE_EXCEPTION_MESSAGE" xml:space="preserve">
+    <value>An error occurred while executing stored procedure</value>
+    <comment/>
+  </data>
+  <data name="GLOBAL_LOG_EXCEPTION_MESSAGE" xml:space="preserve">
+    <value>An error occurred while processing request {Method} {Path} on {MachineName} with trace ID {TraceId}.</value>
+    <comment/>
+  </data>
+  <data name="EMAIL_INVALID_FORMAT" xml:space="preserve">
+    <value>Invalid email address format.</value>
+    <comment/>
+  </data>
+  <data name="ERROR_WHILE_FILE_SAVE" xml:space="preserve">
+    <value>An error occurred while saving the file. </value>
+    <comment/>
+  </data>
+  <data name="INVALID_FILE_TYPE" xml:space="preserve">
+    <value>Invalid file type. Only PDF, JPG, PNG, and TXT are allowed. </value>
+    <comment/>
+  </data>
+  <data name="ENTITY_FETCH_SUCCEED" xml:space="preserve">
+    <value>fetched successfully</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CATEGORY" xml:space="preserve">
+    <value>Category</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ARTICLE" xml:space="preserve">
+    <value>Article</value>
+    <comment/>
+  </data>
+  <data name="FIELD_KB_SEARCH_ANALYTICS" xml:space="preserve">
+    <value>Kb Search Analytics</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ARTICLE_FEEDBACK" xml:space="preserve">
+    <value>Article Feedback</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ARTICLE_VIEW" xml:space="preserve">
+    <value>Article View</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ARTICLE_TRANSLATION" xml:space="preserve">
+    <value>Article Translation</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ARTICLE_NAME" xml:space="preserve">
+    <value>Article Name</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ARTICLE_FEEDBACK_NAME" xml:space="preserve">
+    <value>Article Feedback Name</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ARTICLE_TRANSLATION_NAME" xml:space="preserve">
+    <value>Article Translation Name</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CATEGORY_NAME" xml:space="preserve">
+    <value>Category Name</value>
+    <comment/>
+  </data>
+  <data name="FIELD_TAG" xml:space="preserve">
+    <value>Tag</value>
+    <comment/>
+  </data>
+  <data name="FIELD_TAG_NAME" xml:space="preserve">
+    <value>Tag Name</value>
+    <comment/>
+  </data>
+  <data name="SEARCH_MIN_LENGTH" xml:space="preserve">
+    <value>Enter At least {1} characters to search.</value>
+    <comment/>
+  </data>
+  <data name="FIELD_TICKET" xml:space="preserve">
+    <value>Ticket</value>
+    <comment/>
+  </data>
+  <data name="FIELD_TICKET_ID" xml:space="preserve">
+    <value>Ticket Id</value>
+    <comment/>
+  </data>
+  <data name="FIELD_WATCHER" xml:space="preserve">
+    <value>Watcher</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_APPLY_SUCCESSFUL" xml:space="preserve">
+    <value>{0} applied successfully.</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_REMOVAL_SUCCESSFUL" xml:space="preserve">
+    <value>{0} removed successfully.</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_ADD_SUCCESSFUL" xml:space="preserve">
+    <value>{0} added successfully.</value>
+    <comment/>
+  </data>
+  <data name="PERSON_BANNED" xml:space="preserve">
+    <value>This customer is banned.</value>
+    <comment/>
+  </data>
+  <data name="FILE_NULL" xml:space="preserve">
+    <value>File cannot be null.</value>
+    <comment/>
+  </data>
+  <data name="INVALID_COLUMN_CODE" xml:space="preserve">
+    <value>Column code is invalid.</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CHAT_SESSION" xml:space="preserve">
+    <value>Chat Session</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CHAT_SESSION_ID" xml:space="preserve">
+    <value>Chat Session Id</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CHATS_TAGS_MAPPING" xml:space="preserve">
+    <value>Chats Tags Mapping</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CHATS_TAGS_MAPPING_ID" xml:space="preserve">
+    <value>Chats Tags Mapping Id</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CHATS_TRANSFERS" xml:space="preserve">
+    <value>Chats Transfers</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CHATS_TRANSFERS_ID" xml:space="preserve">
+    <value>Chats Transfers Id</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CHATS_MESSAGES" xml:space="preserve">
+    <value>Chats Messages</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CHATS_MESSAGES_ID" xml:space="preserve">
+    <value>Chats Messages Id</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_RETRIEVAL_SUCCEED" xml:space="preserve">
+    <value>Entity retrieved successfully.</value>
+    <comment/>
+  </data>
+  <data name="FIELD_PERSON" xml:space="preserve">
+    <value>Person</value>
+    <comment/>
+  </data>
+  <data name="FIELD_PERSON_ID" xml:space="preserve">
+    <value>Person Id</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ORGANIZATION_ID" xml:space="preserve">
+    <value>Organization Id</value>
+    <comment/>
+  </data>
+  <data name="FIELD_ORGANIZATION" xml:space="preserve">
+    <value>Organization</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_MARKED_TRASH" xml:space="preserve">
+    <value>{0} Marked as Trash Successfully</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_UNTRASHED" xml:space="preserve">
+    <value>{0} Untrashed Successfully</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_MARKED_SPAM" xml:space="preserve">
+    <value>{0} Marked as Spam Successfully</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_UNSPAMMED" xml:space="preserve">
+    <value>{0} UnSpammed Successfully</value>
+    <comment/>
+  </data>
+  <data name="PERSON_HAS_ACTIVE_TICKET_CANNOT_DELETE" xml:space="preserve">
+    <value>Person has active tickets and cannot be deleted.</value>
+    <comment/>
+  </data>
+  <data name="PERSON_HAS_ACTIVE_CHAT_CANNOT_DELETE" xml:space="preserve">
+    <value>Person has active chat sessions and cannot be deleted.</value>
+    <comment/>
+  </data>
+  <data name="FIELD_COUNTRY" xml:space="preserve">
+    <value>Country</value>
+    <comment/>
+  </data>
+  <data name="ACTIVE_CHAT_ALREADY_EXISTS_WITH_ID" xml:space="preserve">
+    <value>You already have an active chat session (ID: {0}).</value>
+    <comment/>
+  </data>
+  <data name="CHAT_MESSAGE_DELETE_WINDOW_EXPIRED" xml:space="preserve">
+    <value>Message deletion window expired. Deletion not allowed.</value>
+    <comment/>
+  </data>
+  <data name="CHAT_MESSAGE_EDIT_WINDOW_EXPIRED" xml:space="preserve">
+    <value>Message editwindow expired. update not allowed.</value>
+    <comment/>
+  </data>
+</root>

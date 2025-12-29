@@ -1,0 +1,18 @@
+#Ignore Project's bin obj folders
+.vs/
+*obj/
+*bin/
+*logs/
+*/wwwroot/uploads/ 
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore publish profiles
+*.pubxml
+
+# Ignore project-specific files
+*.licx

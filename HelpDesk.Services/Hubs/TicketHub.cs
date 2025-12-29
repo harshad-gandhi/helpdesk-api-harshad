@@ -1,0 +1,15 @@
+using Microsoft.AspNetCore.SignalR;
+using System.Threading.Tasks;
+
+public class TicketHub : Hub
+{
+    public async Task JoinTicketGroup(string ticketId)
+    {
+        await Groups.AddToGroupAsync(Context.ConnectionId, $"Ticket-{ticketId}");
+    }
+
+    public async Task LeaveTicketGroup(string ticketId)
+    {
+        await Groups.RemoveFromGroupAsync(Context.ConnectionId, $"Ticket-{ticketId}");
+    }
+}

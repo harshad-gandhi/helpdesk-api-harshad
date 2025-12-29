@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+
+  <!-- Field Labels -->
+
+  <data name="FIELD_PROJECT_NAME" xml:space="preserve">
+    <value>प्रोजेक्ट नाम</value>
+  </data>
+
+  <data name="FIELD_WIDGET_SETTING_HI" xml:space="preserve">
+    <value>चैट विजेट</value>
+  </data>
+
+  <data name="FIELD_PROJECT" xml:space="preserve">
+    <value>प्रोजेक्ट</value>
+  </data>
+
+  <data name="FIELD_CREATED_BY" xml:space="preserve">
+    <value>बनाया गया</value>
+  </data>
+
+  <data name="FIELD_LIVE_PROJECT_URL" xml:space="preserve">
+    <value>लाइव प्रोजेक्ट यूआरएल</value>
+  </data>
+
+  <data name="FIELD_DESCRIPTION" xml:space="preserve">
+    <value>विवरण</value>
+  </data>
+
+  <data name="FIELD_PROJECT_IMAGE" xml:space="preserve">
+    <value>प्रोजेक्ट छवि</value>
+  </data>
+
+  <data name="FIELD_EMAIL" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+
+  <data name="FIELD_ROLE" xml:space="preserve">
+    <value>भूमिका</value>
+  </data>
+
+  <data name="FIELD_DEPARTMENT" xml:space="preserve">
+    <value>विभाग</value>
+  </data>
+
+  <data name="FIELD_INVITED_BY" xml:space="preserve">
+    <value>द्वारा आमंत्रित</value>
+  </data>
+
+  <data name="FIELD_REPORTS_TO" xml:space="preserve">
+    <value>को रिपोर्ट करता है</value>
+  </data>
+
+  <data name="FIELD_PROJECT_ID" xml:space="preserve">
+    <value>प्रोजेक्ट आईडी</value>
+  </data>
+
+  <data name="FIELD_UPDATED_BY" xml:space="preserve">
+    <value>अपडेट किया गया</value>
+  </data>
+
+  <data name="FIELD_SETTINGS" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="FIELD_TAG" xml:space="preserve">
+    <value>टैग</value>
+    <comment/>
+  </data>
+  <data name="FIELD_TAG_NAME" xml:space="preserve">
+    <value>टैग नाम</value>
+    <comment/>
+  </data>
+  <data name="SEARCH_MIN_LENGTH" xml:space="preserve">
+    <value>कम से कम {1} अक्षर दर्ज करें खोजने के लिए।</value>
+    <comment/>
+  </data>
+  <data name="FIELD_TICKET" xml:space="preserve">
+    <value>टिकट</value>
+    <comment/>
+  </data>
+
+    <data name="FIELD_CHAT_SESSION" xml:space="preserve"><value>चैट सत्र</value></data>
+  <data name="FIELD_CHAT_SESSION_ID" xml:space="preserve"><value>चैट सत्र आईडी</value></data>
+  <data name="FIELD_CHATS_TAGS_MAPPING" xml:space="preserve"><value>चैट टैग मैपिंग</value></data>
+<data name="FIELD_CHATS_TAGS_MAPPING_ID" xml:space="preserve"><value>चैट टैग मैपिंग आईडी</value></data>
+<data name="FIELD_CHATS_TRANSFERS" xml:space="preserve"><value>चैट स्थानांतरण</value></data>
+<data name="FIELD_CHATS_TRANSFERS_ID" xml:space="preserve"><value>चैट स्थानांतरण आईडी</value></data>
+<data name="FIELD_CHATS_MESSAGES" xml:space="preserve"><value>चैट संदेश</value></data>
+<data name="FIELD_CHATS_MESSAGES_ID" xml:space="preserve"><value>चैट संदेश आईडी</value></data>
+
+  <!-- Validation Messages -->
+
+  <data name="PARAMETER_NOT_NULL" xml:space="preserve">
+    <value>{0} आवश्यक है।</value>
+  </data>
+
+  <data name="PARAMETER_GREATER_THAN_ZERO" xml:space="preserve">
+    <value>{0} शून्य से अधिक होना चाहिए।</value>
+  </data>
+
+  <data name="INVALID_DATA" xml:space="preserve">
+    <value>{0} अमान्य है।</value>
+  </data>
+
+  <data name="DATA_ALREADY_EXIST" xml:space="preserve">
+    <value>{0} पहले से मौजूद है।</value>
+  </data>
+
+  <data name="INTERNAL_SERVER" xml:space="preserve">
+    <value>आंतरिक सर्वर त्रुटि हुई।</value>
+  </data>
+
+  <data name="SOMETHING_WENT_WRONG" xml:space="preserve">
+    <value>कुछ गलत हो गया। कृपया बाद में पुनः प्रयास करें।</value>
+  </data>
+
+  <!-- Success Messages -->
+
+  <data name="ENTITY_DELETION_SUCCEED" xml:space="preserve">
+    <value>{0} सफलतापूर्वक हटाया गया।</value>
+  </data>
+
+  <data name="ENTITY_CREATION_SUCCEED" xml:space="preserve">
+    <value>{0} सफलतापूर्वक बनाया गया।</value>
+  </data>
+
+  <data name="ENTITY_UPDATE_SUCCEED" xml:space="preserve">
+    <value>{0} सफलतापूर्वक अपडेट किया गया।</value>
+  </data>
+
+  <data name="REQUEST_PROCESSED_SUCCESSFULLY"
+    xml:space="preserve">
+      <value>अनुरोध सफलतापूर्वक संसाधित हुआ.</value>
+  </data>
+
+  <data name="UNEXPECTED_ERROR_OCCURRED"
+    xml:space="preserve">
+      <value>एक अप्रत्याशित त्रुटि हुई।</value>
+  </data>
+  <data name="FIELD_CATEGORY_NAME" xml:space="preserve">
+    <value>श्रेणी नाम</value>
+    <comment/>
+  </data>
+  <data name="FIELD_CATEGORY" xml:space="preserve">
+    <value>श्रेणी</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_FETCH_SUCCEED" xml:space="preserve">
+    <value>{0} सफलतापूर्वक प्राप्त किया गया</value>
+    <comment/>
+  </data>
+
+  <data name="User" xml:space="preserve">
+    <value>उपयोगकर्ता</value>
+    <comment/>
+  </data>
+  <data name="DATA_NOT_FOUND" xml:space="preserve">
+    <value>{0} नहीं मिला।</value>
+    <comment/>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>ईमेल</value>
+    <comment/>
+  </data>
+  <data name="ENTITY_EXISTS" xml:space="preserve">
+    <value>{0} पहले से मौजूद है।</value>
+    <comment/>
+  </data>
+  <data name="LOGIN_SUCCESSFULLY" xml:space="preserve">
+    <value>सफलतापूर्वक लॉगिन हो गया।</value>
+    <comment/>
+  </data>
+  <data name="LOGOUT_SUCCESSFULLY" xml:space="preserve">
+    <value>सफलतापूर्वक लॉगआउट हो गया।</value>
+    <comment/>
+  </data>
+  <data name="INVITATION_TOKEN_EXPIRED" xml:space="preserve">
+    <value>आमंत्रण टोकन की समय सीमा समाप्त हो गई है।</value>
+    <comment/>
+  </data>
+  <data name="PROFILE_UPDATE_SUCCESSFULLY" xml:space="preserve">
+    <value>प्रोफ़ाइल सफलतापूर्वक अपडेट किया गया|</value>
+    <comment/>
+  </data>
+  <data name="INVALID_INVITATION_TOKEN" xml:space="preserve">
+    <value>अमान्य आमंत्रण टोकन।</value>
+    <comment/>
+  </data>
+  <data name="EMAIL_NOT_VERIFIED_CHECK_LINK" xml:space="preserve">
+    <value>ईमेल परखा नहीं है, कृपया सत्यापन लिंक के लिए अपना ईमेल जांचें।</value>
+    <comment/>
+  </data>
+  <data name="INVALID_EMAIL_OR_PASSWORD" xml:space="preserve">
+    <value>ईमेल आईडी या पासवर्ड गलत है।</value>
+    <comment/>
+  </data>
+  <data name="TWO_FACTOR_REQUIRED_VERIFY_IDENTITY" xml:space="preserve">
+    <value>दो-चरणीय प्रमाणीकरण आवश्यक है। कृपया अपनी पहचान सत्यापित करें।</value>
+    <comment/>
+  </data>
+  <data name="SCAN_QR_TO_ENABLE_TWO_FACTOR" xml:space="preserve">
+    <value>दो-चरणीय प्रमाणीकरण सक्षम करने के लिए कृपया ऑथेंटिकेटर ऐप से QR कोड स्कैन करें।</value>
+    <comment/>
+  </data>
+  <data name="USER_ID_NOT_FOUND_IN_CLAIMS" xml:space="preserve">
+    <value>क्लेम्स में उपयोगकर्ता आईडी नहीं मिली।</value>
+    <comment/>
+  </data>
+  <data name="INVALID_COLUMN_NAME" xml:space="preserve">
+    <value>अमान्य कॉलम नाम।</value>
+    <comment/>
+  </data>
+  <data name="REGISTRATION_SUCCESSFULLY" xml:space="preserve">
+    <value>पंजीकरण सफल रहा।</value>
+    <comment/>
+  </data>
+  <data name="FORGOT_PASSWORD_EMAIL_SENT" xml:space="preserve">
+    <value>पासवर्ड रीसेट करने वाला ईमेल भेज दिया गया है।</value>
+    <comment/>
+  </data>
+  <data name="INVALID_PASSWORD_RESET_TOKEN" xml:space="preserve">
+    <value>अमान्य पासवर्ड रीसेट टोकन।</value>
+    <comment/>
+  </data>
+  <data name="PASSWORD_RESET_TOKEN_EXPIRED" xml:space="preserve">
+    <value>पासवर्ड रीसेट टोकन की समयसीमा समाप्त हो गई है।</value>
+    <comment/>
+  </data>
+  <data name="PASSWORD_RESET_SUCCESSFULLY" xml:space="preserve">
+    <value>पासवर्ड सफलतापूर्वक रीसेट किया गया है।</value>
+    <comment/>
+  </data>
+  <data name="INVALID_EMAIL_VERIFICATION_TOKEN" xml:space="preserve">
+    <value>अमान्य ईमेल सत्यापन टोकन।</value>
+    <comment/>
+  </data>
+  <data name="EMAIL_VERIFICATION_TOKEN_EXPIRED" xml:space="preserve">
+    <value>ईमेल सत्यापन टोकन की समयसीमा समाप्त हो गई है।</value>
+    <comment/>
+  </data>
+  <data name="EMAIL_VERIFIED_SUCCESSFULLY" xml:space="preserve">
+    <value>ईमेल सफलतापूर्वक सत्यापित हो गया है।</value>
+    <comment/>
+  </data>
+  <data name="INVALID_OR_MISSING_USER_ID" xml:space="preserve">
+    <value>उपयोगकर्ता आईडी अमान्य है या प्रदान नहीं की गई है।</value>
+    <comment/>
+  </data>
+  <data name="USER_NOT_FOUND_OR_SECRET_KEY_MISSING" xml:space="preserve">
+    <value>उपयोगकर्ता नहीं मिला या सीक्रेट की कॉन्फ़िगर नहीं की गई है।</value>
+    <comment/>
+  </data>
+  <data name="INVALID_VERIFICATION_CODE" xml:space="preserve">
+    <value>अमान्य सत्यापन कोड।</value>
+    <comment/>
+  </data>
+  <data name="DIRECT_MESSAGE"
+    xml:space="preserve">
+        <value>सीधा संदेश</value>
+    </data>
+
+  <data name="DELETE_SUCCESS" xml:space="preserve">
+      <value>{0} सफलतापूर्वक हटा दिया गया।</value>
+  </data>
+
+  <data name="SEND_SUCCESS" xml:space="preserve">
+      <value>{0} सफलतापूर्वक भेजा गया।</value>
+  </data>
+
+  <data name="UPDATED_SUCCESS" xml:space="preserve">
+      <value>{0} सफलतापूर्वक अपडेट किया गया।</value>
+  </data>
+
+  <data name="READ_SUCCESS" xml:space="preserve">
+      <value>{0} सफलतापूर्वक पढ़ा गया।</value>
+  </data>
+
+  <data name="REQUIRED" xml:space="preserve">
+    <value>{0} आवश्यक है।</value>
+</data>
+
+  <data name="ID_POSITIVE" xml:space="preserve">
+    <value>{0} अवश्य ही एक धनात्मक संख्या होनी चाहिए।</value>
+</data>
+
+  <data name="LENGTH_LIMIT_250" xml:space="preserve">
+    <value>{0} 250 अक्षरों से अधिक नहीं होना चाहिए.</value>
+</data>
+
+  <data name="LENGTH_LIMIT_50" xml:space="preserve">
+    <value>{0} 50 अक्षरों से अधिक नहीं होना चाहिए.</value>
+</data>
+
+  <data name="LENGTH_LIMIT_100" xml:space="preserve">
+    <value>{0} 100 अक्षरों से अधिक नहीं होना चाहिए.</value>
+</data>
+
+  <data name="SESSION_TIMEOUT" xml:space="preserve">
+  <value>सत्र समाप्त हो गया है। कृपया पुनः प्रयास करें।</value>
+</data>
+
+  <data name="TOKEN_EXPIRED" xml:space="preserve">
+  <value>टोकन समाप्त हो गया है। कृपया पुनः प्रयास करें।</value>
+</data>
+
+  <data name="INVALID_SORTCOLUMN" xml:space="preserve">
+  <value>क्रमबद्ध करने के लिए कॉलम नाम अमान्य है।</value>
+</data>
+
+  <data name="IS_NULL_OR_EMPTY" xml:space="preserve">
+  <value>{0} खाली या शून्य है।</value>
+</data>
+
+  <data name="ID_IS_NULL_OR_ZERO" xml:space="preserve">
+  <value>{0} शून्य, खाली या 1 से कम नहीं हो सकता।</value>
+</data>
+
+  <data name="INVALID_ACTION" xml:space="preserve">
+  <value>अमान्य क्रिया।</value>
+</data>
+
+  <data name="CONNECTION_STRING_NOT_FOUND" xml:space="preserve">
+  <value>कनेक्शन स्ट्रिंग मौजूद नहीं है।</value>
+</data>
+
+
+  <data name="DATABASE_CONNECTION_FAILED" xml:space="preserve">
+  <value>डेटाबेस से कनेक्ट नहीं हो पा रहा है।</value>
+</data>
+
+  <data name="STORED_PROCEDURE_EXCEPTION_MESSAGE" xml:space="preserve">
+  <value>स्टोरड प्रोसीजर निष्पादित करते समय त्रुटि हुई</value>
+</data>
+
+  <data name="DATA_NOT_EXISTS" xml:space="preserve">
+  <value>{0} मौजूद नहीं है।</value>
+</data>
+
+  <data name="GLOBAL_LOG_EXCEPTION_MESSAGE" xml:space="preserve">
+  <value>अनुरोध {Method} {Path} को संसाधित करते समय त्रुटि हुई। मशीन का नाम {MachineName} और ट्रेस आईडी {TraceId} है।</value>
+</data>
+
+  <data name="EMAIL_INVALID_FORMAT" xml:space="preserve">
+  <value>अमान्य ईमेल पते का प्रारूप।</value>
+</data>
+
+  <data name="ERROR_WHILE_FILE_SAVE" xml:space="preserve">
+  <value>फ़ाइल सहेजते समय एक त्रुटि हुई।</value>
+</data>
+<data name="ENTITY_FETCH_SUCCEED" xml:space="preserve">
+    <value>सफलतापूर्वक प्राप्त किया गया</value>
+    <comment/>
+</data>
+<data name="FIELD_CATEGORY" xml:space="preserve">
+    <value>श्रेणी</value>
+    <comment/>
+</data>
+<data name="FIELD_ARTICLE" xml:space="preserve">
+    <value>लेख</value>
+    <comment/>
+</data>
+<data name="FIELD_KB_SEARCH_ANALYTICS" xml:space="preserve">
+    <value>नॉलेज बेस खोज विश्लेषण</value>
+    <comment/>
+</data>
+<data name="FIELD_ARTICLE_FEEDBACK" xml:space="preserve">
+    <value>लेख प्रतिक्रिया</value>
+    <comment/>
+</data>
+<data name="FIELD_ARTICLE_VIEW" xml:space="preserve">
+    <value>लेख दृश्य</value>
+    <comment/>
+</data>
+<data name="FIELD_ARTICLE_TRANSLATION" xml:space="preserve">
+    <value>लेख अनुवाद</value>
+    <comment/>
+</data>
+<data name="FIELD_ARTICLE_NAME" xml:space="preserve">
+    <value>लेख का नाम</value>
+    <comment/>
+</data>
+<data name="FIELD_ARTICLE_FEEDBACK_NAME" xml:space="preserve">
+    <value>लेख प्रतिक्रिया का नाम</value>
+    <comment/>
+</data>
+<data name="FIELD_ARTICLE_TRANSLATION_NAME" xml:space="preserve">
+    <value>लेख अनुवाद का नाम</value>
+    <comment/>
+</data>
+<data name="FIELD_CATEGORY_NAME" xml:space="preserve">
+    <value>श्रेणी का नाम</value>
+    <comment/>
+</data>
+<data name="ENTITY_RETRIEVAL_SUCCEED" xml:space="preserve">
+<value>एंटिटी सफलतापूर्वक प्राप्त हुई।</value>
+</data>
+</root>
